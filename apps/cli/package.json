@@ -1,0 +1,20 @@
+{
+	"name": "@repo/cli",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"dev": "bun --watch app.tsx",
+		"build": "bun build app.tsx --outdir dist --target bun --external react-devtools-core"
+	},
+	"devDependencies": {
+		"@types/bun": "latest",
+		"@types/react": "^19.2.14"
+	},
+	"peerDependencies": {
+		"typescript": "^5"
+	},
+	"dependencies": {
+		"ink": "^6.8.0",
+		"react": "^19.2.4"
+	}
+}

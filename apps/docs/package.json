@@ -1,0 +1,8 @@
+{
+	"name": "@repo/docs",
+	"scripts": {
+		"dev": "vitepress dev",
+		"build": "vitepress build",
+		"preview": "vitepress preview"
+	}
+}
